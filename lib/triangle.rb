@@ -20,6 +20,7 @@ class Triangle
       begin
         raise TriangleError
       rescue TriangleError
+      end
     end
     
     unless @ein + @zwei > @drei && @zwei + @drei > @ein && @drei + @ein > @zwei

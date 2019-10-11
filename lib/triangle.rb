@@ -19,7 +19,7 @@ class Triangle
     if @ein <= 0 || @zwei <= 0 || @drei <= 0
       begin
         raise TriangleError
-      rescue TriangleError =
+      rescue TriangleError => error
         puts error.message
       end
     end

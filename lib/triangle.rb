@@ -1,7 +1,11 @@
 class Triangle
   
+  attr_reader :ein, :zwei, :drei
+  
   def initialize(ein, zwei, drei)
-    
+    @ein = ein
+    @zwei = zwei
+    @drei = drei
   end
   
   def kind

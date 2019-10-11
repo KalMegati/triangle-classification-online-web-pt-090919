@@ -20,6 +20,8 @@ class Triangle
       raise TriangleError
     end
     
+    if 
+    
     if @ein == @zwei && @zwei == @drei
       :equilateral
     elsif @ein == @zwei || @zwei == @drei || @drei == @ein

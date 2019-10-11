@@ -10,7 +10,7 @@ class Triangle
   
     class TriangleError < StandardError
       def message
-        ""
+        "HWAT"
       end
     end
   

@@ -8,6 +8,10 @@ class Triangle
     @drei = drei
   end
   
+    class TriangleError < StandardError
+      
+    end
+  
   def kind
     
     if @ein <= 0 || @zwei <= 0 || @drei <= 0

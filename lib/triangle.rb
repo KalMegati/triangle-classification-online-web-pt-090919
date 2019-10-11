@@ -17,7 +17,7 @@ class Triangle
   def kind
     
     if @ein <= 0 || @zwei <= 0 || @drei <= 0
-      TriangleError
+      raise TriangleError
     end
     
     if @ein == @zwei && @zwei == @drei

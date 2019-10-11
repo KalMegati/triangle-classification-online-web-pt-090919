@@ -12,9 +12,9 @@ class Triangle
     
     
     
-    if ein == zwei && zwei == drei
+    if @ein == @zwei && @zwei == @drei
       :equilateral
-    elsif ein == zwei || zwei == drei
+    elsif @ein == @zwei || @zwei == @drei
       :isosceles
     else
       :scalene
